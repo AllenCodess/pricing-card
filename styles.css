@@ -57,7 +57,7 @@ li {
 }
 
 .card h2 {
-  background-color: #f8fafe;
+  background-color: #e4e4e4;
   text-transform: uppercase;
   padding: 15px;
   font-size: 18px;
@@ -74,4 +74,15 @@ li {
 .card-enterprise h2 {
   color: white;
   background: linear-gradient(62deg, rgba(180, 58, 154, 1) 0%, rgba(242, 214, 90, 1) 100%, rgba(252, 176, 69, 1) 100%);
+}
+
+.price {
+  font-size: 45px;
+  font-weight: 600;
+  margin: 25px 0;
+}
+
+sup,
+span {
+  font-size: 14px;
 }
