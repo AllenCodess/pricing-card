@@ -20,7 +20,7 @@ body {
 .pricing {
   display: flex;
   justify-content: space-between;
-  margin-top: 14rem;
+  margin-top: 9rem;
   padding: 6rem;
   gap: 40px;
 }
@@ -46,8 +46,10 @@ h2 {
 
 li {
   list-style: none;
-  padding-bottom: 10px;
-  margin-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 7px;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 .btn {
@@ -116,4 +118,5 @@ ul {
   margin-top: 50px;
   text-align: left;
   padding-left: 20px;
+  padding-bottom: 20px;
 }
