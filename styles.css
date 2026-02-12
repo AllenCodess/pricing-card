@@ -6,7 +6,7 @@
 
 body {
   background-color: #0f0c2c;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
 }
 
 .card {
-  box-shadow: 5px 5px 15px -1px #000000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   border-radius: 8px;
   color: #0f0c2c;
@@ -56,11 +56,22 @@ li {
   color: #0f77ff;
 }
 
-.card-free h2 {
-  background-color: #e7e7e7;
+.card h2 {
+  background-color: #f8fafe;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 18px;
+  color: 333;
   width: 90%;
-  margin: 0 auto;
-  padding: 8px 0;
-  margin-top: 5px;
-  margin-bottom: 2rem;
+  margin: 10px auto;
+}
+
+.card-pro h2 {
+  background: linear-gradient(62deg, rgba(58, 172, 180, 1) 0%, rgba(174, 90, 242, 1) 100%, rgba(252, 176, 69, 1) 100%);
+  color: white;
+}
+
+.card-enterprise h2 {
+  color: white;
+  background: linear-gradient(62deg, rgba(180, 58, 154, 1) 0%, rgba(242, 214, 90, 1) 100%, rgba(252, 176, 69, 1) 100%);
 }
