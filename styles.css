@@ -111,3 +111,9 @@ span {
   color: white;
   background-color: #0f0c2c;
 }
+
+ul {
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 20px;
+}
