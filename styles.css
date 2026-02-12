@@ -86,3 +86,28 @@ sup,
 span {
   font-size: 14px;
 }
+
+.price-info {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.main-text {
+  font-size: 12px;
+  line-height: 17px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: solid 1px black;
+  padding: 12px 70px;
+  border-radius: 8px;
+  color: #0f0c2c;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #0f0c2c;
+}
