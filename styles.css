@@ -120,3 +120,34 @@ ul {
   padding-left: 20px;
   padding-bottom: 20px;
 }
+
+@media (max-width: 1136px) {
+  .btn,
+  .a {
+    width: 40%;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    flex-direction: column;
+  }
+  li {
+    text-align: center;
+  }
+  ul {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .btn,
+  .a {
+    width: 40%;
+    padding: 10px 20px;
+  }
+  .pricing {
+    padding: 1.5rem 2.5rem;
+  }
+}
