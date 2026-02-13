@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 9rem;
-  padding: 6rem;
+  padding: 3rem;
   gap: 40px;
 }
 
@@ -127,6 +127,17 @@ ul {
     width: 40%;
     padding: 10px 20px;
   }
+
+  li {
+    text-align: center;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -135,9 +146,13 @@ ul {
   }
   li {
     text-align: center;
+    font-size: 20px;
   }
   ul {
     padding-left: 0;
+  }
+  .card {
+    width: 100%;
   }
 }
 
@@ -147,7 +162,13 @@ ul {
     width: 40%;
     padding: 10px 20px;
   }
+  li {
+    font-size: 14px;
+  }
   .pricing {
     padding: 1.5rem 2.5rem;
+  }
+  .card {
+    width: 100%;
   }
 }
